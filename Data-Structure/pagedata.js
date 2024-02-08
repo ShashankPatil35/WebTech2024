@@ -1,10 +1,10 @@
 const Pts = {
-    ht1: "WHAT IS DATA STRUCTURE?",
-    ht2: "IMPORTANCE OF DATA STRUCTURE?",
-    ht3: "REAL LIFE APPLICATION ON DATA STRUCTURE",
-    pt1: "A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. It is not only used for organizing data but also for processing, retrieving, and storing it. There are different types of data structures that can be used depending on the needs of the program or software system",
+    ht1: "WHAT IS NOTES MANAGEMENT APP?",
+    ht2: "LEARN ABOUT DATA STRUCTURE",
+    ht3: "IMPORTANCE OF NOTES MANAGEMENT APP",
+    pt1: "Notes management app serves as a user-friendly platform for creating, organizing, and implementing real data in an organized manner. Users can easily create notes, input real data, and maintain a structured system for effective information management. This digital tool enhances productivity and accessibility by providing a convenient way to manage and retrieve information whenever needed",
     pt2: "Data structures are important because they allow you to store and retrieve data in an efficient manner. They can help improve the performance of your code by reducing the time and space complexity of algorithms. They also provide a way to organize and store data in a way that allows for efficient retrieval, manipulation, and storage of data. Data structures are also essential for managing and manipulating data in an efficient and effective way. They are a fundamental concept in computer science and are used extensively in programming and software development",
-    pt3: `There are many real-life applications of data structures. For example: Databases use data structures such as trees, heaps, and hash tables to store and retrieve data efficiently. Operating systems use data structures such as lists, queues, and stacks to manage tasks, processes, and memory. Web search engines use data structures such as inverted indexes and tries to index and search the web efficiently. Computer graphics use data structures such as binary trees, octrees, and meshes to represent and manipulate 3D objects.`
+    pt3: `A notes management app is crucial for efficient information organization, enabling users to categorize and structure their notes for quick access. With synchronization across devices, it ensures seamless accessibility anytime, anywhere, catering to the dynamic needs of modern lifestyles. Collaboration features enhance teamwork, making it ideal for shared projects and collective efforts. The capability to implement real data adds depth to notes, making them more actionable and insightful. In essence, these apps play a vital role in boosting productivity, fostering collaboration, and enhancing the overall quality of note-taking and information management.`
 };
 const Images = {
     im1: './images/R .png',

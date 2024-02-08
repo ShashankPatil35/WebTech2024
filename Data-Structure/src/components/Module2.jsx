@@ -32,9 +32,6 @@ export default function Module2() {
           <li>
             <strong>Geographic Information Systems (GIS):</strong> GIS applications employ data structures such as spatial trees (e.g., Quadtree, R-tree) to efficiently store and query spatial data, enabling operations like map overlays and spatial analysis.
           </li>
-          <li>
-            <strong>Financial Systems:</strong> Data structures are utilized in financial systems for storing and analyzing large volumes of financial data, facilitating tasks like portfolio management, risk assessment, and algorithmic trading.
-          </li>
         </ol>
       </div>
     );

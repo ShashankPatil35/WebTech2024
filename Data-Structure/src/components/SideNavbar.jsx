@@ -1,4 +1,5 @@
 import { Card, Typography, List, ListItem } from "@material-tailwind/react";
+import Module3 from "./Module3";
 
 export default function DefaultSidebar() {
   const toggleSidebar = () => {
@@ -25,15 +26,17 @@ export default function DefaultSidebar() {
       <Card className="side-bar translate-x-[-100%] md:translate-x-[0%] md:block h-[calc(100vh-48px)] rounded-none w-[18rem] p-4 shadow-xl bg-[#f7f7f7] shadow-blue-gray-900/5">
         <div className="ml-[calc(5vw+56px)] mb-[10px] p-2 md:ml-[0]">
           <Typography variant="h5" color="blue-gray">
-            Data Structures
+           Topics
           </Typography>
         </div>
         <List>
-          <ListItem>Stack</ListItem>
-          <ListItem>Queue</ListItem>
-          <ListItem>Linked List</ListItem>
-          <ListItem>Tree</ListItem>
-          <ListItem>Graph</ListItem>
+          <ListItem>DSA - Implement Stack</ListItem>
+          <ListItem><a href="../read/Module3">Javascript</a></ListItem>
+
+          <ListItem><a href="../read/Module4">React</a></ListItem>
+          <ListItem>BlockChain</ListItem>
+          <ListItem>Tailwind</ListItem>
+          <ListItem>TypeScript</ListItem>
         </List>
       </Card>
     </div>

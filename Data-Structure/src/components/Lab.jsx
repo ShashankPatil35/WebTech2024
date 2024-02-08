@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Stack from "../components/Stack.jsx";
 import SideNavbar from "./SideNavbar.jsx";
+import Module3 from "./Module3.jsx";
 
 export default function Lab() {
   return (
@@ -16,6 +17,8 @@ export default function Lab() {
       <div className="flex flex-row mt-[46px]">
         <SideNavbar />
         <Stack />
+        
+        {/* {selectedNavItem === 'Module3' && <Module3 />} */}
       </div>
     </>
   );

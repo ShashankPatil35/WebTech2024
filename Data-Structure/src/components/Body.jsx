@@ -56,18 +56,20 @@ export default function Body(props) {
             </motion.p>
             <div className={`flex flex-col md:flex-row ${props.btnPos} `}>
               <Link to={props.links} className="">
-                <button
+              <button
                   className={`py-2 my-2 px-4 w-[100%] ${props.visibilty1} ${props.btnC} text-white rounded-md transition ease-in-out delay-150  hover:bg-[#6a6a6a] duration-300 text-[15px]`}
                 >
                   {" "}
-                  {props.Btns1}
+                  {/* {props.Btns1} */}
+                 Topic
                 </button>
               </Link>
               <Link to={props.link2}>
-                <button
+              <button
                   className={`border-2 w-[100%] bg-black ${props.visibilty2} hover:bg-white hover:border-2 transition ease-in-out delay-150 duration-300 hover:border-black  hover:text-black text-white px-5 py-2 rounded-md text-[15px]`}
                 >
-                  {props.Btns2}
+                  {/* {props.Btns2} */}
+                  Notes Section
                 </button>
               </Link>
             </div>
